@@ -33,8 +33,12 @@ body::-webkit-scrollbar{
     margin-left: 350px;
 }
 
+.container{
+    margin: 0 150px;
+}
+
 .slider{
-    background: url("/asset/img/bg-carousel.png");
+    background: url("/asset/img/bg-slider.png");
     min-height: 600px;
     background-size: cover;
     background-position: center;
@@ -42,6 +46,7 @@ body::-webkit-scrollbar{
     align-items: center;
     padding: 0 140px;
 }
+
 
 .container-slider{
     font-family: 'Poppins', sans-serif;
@@ -80,11 +85,14 @@ body::-webkit-scrollbar{
     justify-content: center;
 }
 
-.content-text{
+.content-box{
+    padding: 110px 30px;
     background: var(--white-color);
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.19);;
-    margin-left: 50px;
-    margin-right: 50px;
+}
+
+.content-text{
+    padding: 30px 0 30px 0;
 }
 
 .content-text h3{
@@ -101,7 +109,7 @@ body::-webkit-scrollbar{
 }
 
 .about-stat{
-    margin-top: 100px;
+    margin-top: 85px;
 }
 
 .stat h4{
@@ -111,19 +119,19 @@ body::-webkit-scrollbar{
 .container-banner{
     display: flex;
     padding: 5rem;
-    margin: 200px 100px;    
+    margin: 200px 0px 100px 0;
     align-items: center;
-    justify-content: center;
     background: linear-gradient(102.41deg, #108BBC -10.4%, #02C39A 70.02%);
     border-radius: 25px;
 }
 
 .container-text{
     width: 750px;
+    color: var(--white-color);
 }
 
-.container-text{
-    color: var(--white-color);
+.container-text h1{
+    font-weight: 650;
 }
 
 .mobile-preview{
@@ -151,11 +159,20 @@ body::-webkit-scrollbar{
 }
 
 .contact-us{
-    margin: 100px 150px 100px 150px;
+    margin: 100px 0 100px 0;
 }
 
-.footer{
-    margin: 0 150px 0px 150px;
+.footer-brand{
+    margin-right: 100px;
+}
+
+.container-footer{
+    background-color: var(--background-footer-color);
+    padding: 0px 110px 0 110px;
+}
+
+.container-footer .row{
+    padding: 5rem 0;
 }
 
 
